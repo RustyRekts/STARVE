@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 135543420003701024}
   - component: {fileID: 23752766460838248}
   - component: {fileID: 114939036646759320}
+  - component: {fileID: 114219248225002162}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Loot
@@ -84,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547616555368852}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114219248225002162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547616555368852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f399f9d7e7c27499cfcbf8dc687f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryItemSO: {fileID: 11400000, guid: cd45804cd094a3d4c968f6d15f51edec, type: 2}
 --- !u!114 &114939036646759320
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -20,10 +20,13 @@ public class PickupLoot : MonoBehaviour {
             if (hit.distance <= lootPickupDistance && hit.collider.gameObject.tag == lootTagName) {
                 if (Input.GetKeyDown(KeyCode.E)) {
                     RegenerateLoot regenerateLoot = hit.collider.gameObject.GetComponent<RegenerateLoot>();
-                    if (!regenerateLoot)
+                    InventoryItemDisplay lootItemDisplay = hit.collider.gameObject.GetComponent<InventoryItemDisplay>();
+
+                    if (regenerateLoot == null || lootItemDisplay == null)
                         return;
 
-                    Inventory.AddLootToInventory(regenerateLoot.lootType);
+                    InventoryItemSO lootItem = lootItemDisplay.inventoryItemSO;
+                    InventoryNew.instance.Add(lootItem);
                     StartCoroutine(regenerateLoot.ResetObject());
                 }
             }
