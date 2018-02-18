@@ -6,6 +6,8 @@ public class InventoryItemSO : ScriptableObject
 {
     public new string name;
 
+    public string itemCategory;
+
     [TextArea]
     public string description;
 

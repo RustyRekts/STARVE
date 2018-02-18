@@ -28,40 +28,59 @@ public class InventoryNew : MonoBehaviour
 
     [Header("Total Inventory Items")]
     public int totalSlots = 20;
-    
+
     [HideInInspector]
-    public List<InventoryItemSO> items = new List<InventoryItemSO>();
+    public Dictionary<string, List<InventoryItemSO>> items = new Dictionary<string, List<InventoryItemSO>>();
 
     public bool Add(InventoryItemSO item)
     {
         // Don't do anything if it's a default item
+        string itemCategory = item.itemCategory;
 
         // Check if out of space
-        if (items.Count >= totalSlots)
+        int categoryCount = items[itemCategory].Count;
+        if (categoryCount >= totalSlots)
         {
             print("Not Enough Room.");
             return false;
         }
 
-        items.Add(item);    // Add item to list
+        if (items.ContainsKey(itemCategory))
+            items[itemCategory].Add(item);    // Add item to List if List exists
+        else
+        {
+            List<InventoryItemSO> categoryItems = new List<InventoryItemSO>();
+            categoryItems.Add(item);
+            items.Add(itemCategory, categoryItems); // Create new List and add if List does not exist
+        }
 
         // Trigger callback
         if (onItemChangedCallback != null)
             onItemChangedCallback.Invoke();
 
 
-        foreach (var tempItem in items)
+        foreach (var category in items)
         {
-            print(tempItem.name);
-            print(tempItem.description);
+            print("Category: " + category.Key);
+            var items = category.Value;
+            foreach (var categoryItem in items)
+            {
+                print(categoryItem.name);
+                print(categoryItem.description);
+            }
             print("\n");
         }
+        print("\n\n");
         return true;
     }
 
     public void Remove(InventoryItemSO item)
     {
-        items.Remove(item);     // Remove item from list
+        string category = item.itemCategory;
+        if (items.ContainsKey(category))
+            items[category].Remove(item);
+        else
+            print("Invalid Category");
 
         // Trigger callback
         if (onItemChangedCallback != null)
