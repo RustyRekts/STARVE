@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: UMP-45
   m_EditorClassIdentifier: 
   name: UMP-45
+  itemCategory: Weapons
   description: SMG
   itemImage: {fileID: 0}
   itemImageEnabled: 0

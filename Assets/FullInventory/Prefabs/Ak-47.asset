@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Ak-47
   m_EditorClassIdentifier: 
   name: Ak-47
+  itemCategory: Weapons
   description: One of the most common and deadliest guns
   itemImage: {fileID: 0}
   itemImageEnabled: 0

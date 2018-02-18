@@ -37,16 +37,17 @@ public class InventoryNew : MonoBehaviour
         // Don't do anything if it's a default item
         string itemCategory = item.itemCategory;
 
-        // Check if out of space
-        int categoryCount = items[itemCategory].Count;
-        if (categoryCount >= totalSlots)
-        {
-            print("Not Enough Room.");
-            return false;
-        }
-
         if (items.ContainsKey(itemCategory))
+        {
+            // Check if out of space
+            int categoryCount = items[itemCategory].Count;
+            if (categoryCount >= totalSlots)
+            {
+                print("Not Enough Room.");
+                return false;
+            }
             items[itemCategory].Add(item);    // Add item to List if List exists
+        }
         else
         {
             List<InventoryItemSO> categoryItems = new List<InventoryItemSO>();
