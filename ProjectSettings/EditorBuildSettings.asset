@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/[0] Assets/V4 STARVE.unity
-    guid: d954a5de73e97db4bb3efa57f1ce692a
+    path: Assets/Scenes/main menu.unity
+    guid: 3990a2e62e0fdc049a590ff6d23bb541
+  - enabled: 1
+    path: Assets/Scenes/PROJECT.unity
+    guid: 31078335720852546874f357cc09118c

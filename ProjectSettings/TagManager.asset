@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Item
-  - Slot
-  - Loot
+  - Ladder
+  - Fire
+  - WP
+  - Spawn Point
   layers:
   - Default
   - TransparentFX
@@ -16,11 +17,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - First Person
+  - Pickup
+  - Hitbox
+  - Entity
+  - Building Piece
   - 
   - 
   - 
