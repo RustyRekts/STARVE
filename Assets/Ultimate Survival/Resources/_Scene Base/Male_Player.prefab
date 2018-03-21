@@ -24179,7 +24179,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000010809538250}
   m_FireAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: 92f3926ab088d854e9635995036af132, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.5, y: 0.75}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_MuzzleFlash: {fileID: 198845579787579972}
@@ -24215,9 +24215,9 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000013348539768}
   m_AttackAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: fe8ca30304bfacf4288084606f5bc682, type: 3}
-    - {fileID: 8300000, guid: 7f664ea72eb9c1043b4377b5de8cb441, type: 3}
-    - {fileID: 8300000, guid: db452edb573749e4aa03d0221cb6a3e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.4, y: 0.6}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_SoundType: 2
@@ -24541,9 +24541,9 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000012406293572}
   m_AttackAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: fe8ca30304bfacf4288084606f5bc682, type: 3}
-    - {fileID: 8300000, guid: 7f664ea72eb9c1043b4377b5de8cb441, type: 3}
-    - {fileID: 8300000, guid: db452edb573749e4aa03d0221cb6a3e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.4, y: 0.6}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_SoundType: 2
@@ -24899,9 +24899,9 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000011635025672}
   m_ThrowAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: fe8ca30304bfacf4288084606f5bc682, type: 3}
-    - {fileID: 8300000, guid: 7f664ea72eb9c1043b4377b5de8cb441, type: 3}
-    - {fileID: 8300000, guid: db452edb573749e4aa03d0221cb6a3e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.25, y: 0.4}
     m_PitchRange: {x: 0.9, y: 1.1}
 --- !u!114 &114000012073852420
@@ -25209,9 +25209,9 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000010993419122}
   m_ThrowAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: fe8ca30304bfacf4288084606f5bc682, type: 3}
-    - {fileID: 8300000, guid: 7f664ea72eb9c1043b4377b5de8cb441, type: 3}
-    - {fileID: 8300000, guid: db452edb573749e4aa03d0221cb6a3e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.25, y: 0.4}
     m_PitchRange: {x: 0.9, y: 1.1}
 --- !u!114 &114000012813301582
@@ -25265,13 +25265,13 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000011966725914}
   m_ReleaseAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: 2327bb7e7d557bc42b64e39f5676e5b5, type: 3}
-    - {fileID: 8300000, guid: 1ab0a37163d21c34292a206ab484712b, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.1, y: 0.15}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_StretchAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: 459f1b589d1090449a3d96a1e0dfb545, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.5, y: 0.75}
     m_PitchRange: {x: 0.9, y: 1.1}
 --- !u!114 &114000013078039578
@@ -25665,7 +25665,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000013931533126}
   m_FireAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: e0ab50aa5db40dc47a22404495c76a7b, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.4, y: 0.5}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_MuzzleFlash: {fileID: 198788175416871732}
@@ -26432,9 +26432,9 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82000012174530992}
   m_AttackAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: fe8ca30304bfacf4288084606f5bc682, type: 3}
-    - {fileID: 8300000, guid: 7f664ea72eb9c1043b4377b5de8cb441, type: 3}
-    - {fileID: 8300000, guid: db452edb573749e4aa03d0221cb6a3e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.4, y: 0.6}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_SoundType: 3
@@ -26608,7 +26608,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82717459393275658}
   m_DeathAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: 8f46609dff2e69e4492898ef6d0f6d1f, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.5, y: 0.75}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_ObjectsToDisable:
@@ -26768,7 +26768,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82279710778813998}
   m_FireAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: 767aed8de78f77a4996cbf5d37eb3881, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.9, y: 1}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_MuzzleFlash: {fileID: 198485022020330188}
@@ -27287,7 +27287,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82148104480687314}
   m_FireAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: d8671e3ac1c052f4882a5b880273286e, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.7, y: 0.85}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_MuzzleFlash: {fileID: 198152892271528440}
@@ -27386,15 +27386,15 @@ MonoBehaviour:
   m_MaxFallSpeed: 25.5
   m_HurtAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: 35bab6e36c8ea0242a1c6d1a142fcef4, type: 3}
-    - {fileID: 8300000, guid: 9cb5e920b472b90489c376baf937de89, type: 3}
-    - {fileID: 8300000, guid: 535d9affcde62d94c916d9913769109d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.5, y: 0.75}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_TimeBetweenScreams: 1
   m_FallDamageAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: efe1c179da2786048a2e21e11bdebb6a, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.3, y: 0.5}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_Animator: {fileID: 0}
@@ -27406,7 +27406,7 @@ MonoBehaviour:
     m_Speed: 8
   m_BreathingHeavyAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: f3e92f92e55bda94fbf78e13a4cb7cea, type: 3}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.7, y: 0.85}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_BreathingHeavyDuration: 11
@@ -27442,9 +27442,9 @@ MonoBehaviour:
   m_AudioSource: {fileID: 82065273353696590}
   m_AttackAudio:
     m_Sounds:
-    - {fileID: 8300000, guid: fe8ca30304bfacf4288084606f5bc682, type: 3}
-    - {fileID: 8300000, guid: 7f664ea72eb9c1043b4377b5de8cb441, type: 3}
-    - {fileID: 8300000, guid: db452edb573749e4aa03d0221cb6a3e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_VolumeRange: {x: 0.4, y: 0.6}
     m_PitchRange: {x: 0.9, y: 1.1}
   m_SoundType: 2
